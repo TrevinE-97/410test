@@ -2,7 +2,7 @@
 /*
    sample start file for final project - educational use only
    
-   Author:   
+   Author:  Trevin Erickson 
    Date:     
    
   
@@ -12,6 +12,7 @@
 * {
     margin: 0; 
     padding: 0;
+	box-sizing: border-box;
 }
 
 body {
@@ -21,7 +22,7 @@ body {
 }
 
 #container {
-    width: 930px;
+    width: 1000px; 
     border-width: 1px;
     margin: 0 auto;
     background-color: white;
@@ -39,7 +40,7 @@ header {
 }
 
 nav {
-    width: 200px;
+    width: 150px;
     margin: 0 5px 0 5px; 
     padding: 25px 10px 0 10px;
     float: left;
@@ -65,13 +66,13 @@ nav ul li a:hover {
 }
 
 #main {
-    width: 446px;
+    width: 546px;
+	text-align: center;
     padding: 10px;
     float: left;
     color: black;
     border-left: 2px solid;
-    border-right: 2px solid;    
-    background-image: url(images/ricepaper.jpg); 
+    border-right: 2px solid;     
 }
 
 #main p {
@@ -88,15 +89,21 @@ figcaption {
 }
 
 aside {
-    width: 200px;
+    width: 150px;
     margin: 0 5px 0 5px;
     padding: 10px;
     float: right;
+	text-align: center;
 }
 
 aside p {
     font-style: italic;
     font-size: 0.9em;
+}
+
+aside img {
+    max-width: 100%;
+    height: auto;
 }
 
 h2 {
@@ -112,7 +119,7 @@ h3 {
 }
 
 footer {
-    width: 910px;
+    width: 100%;
     margin: 0;
     padding: 10px;
     background-color: gray;
@@ -129,6 +136,7 @@ footer {
     margin-bottom: 10px;
     border: 2px solid;
     border-radius: 25px;
+	overflow: hidden;
 }/* navigation for footer */
 footer a:link {
     color: white;
@@ -143,4 +151,26 @@ footer a:visited {
 
 footer a:hover {
     text-decoration: underline;
+}
+
+.menu-full {
+  width: 100%;
+  max-width: 650px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.event-block {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.event-photo {
+    width: 100%;
+    max-width: 420px;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+    border: 1px solid #999;
 }
